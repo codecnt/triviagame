@@ -161,3 +161,4 @@ for i in range(25):
         print("Keep trying you will get there")
 
 
+print("Well done! You finished the game! You will now forever be remembered in our leadership board")

@@ -2,8 +2,13 @@
 
 ## MVP
 1. Make a trivia game  
-2. Questions are created in a Json file structure by chat GPT with the options, the correct answer and hints
-3. Each trivia game is stored in a json
+2. Questions are created in a Json file structure by chat GPT with the questions options, the correct answer and hints
+3. The trivia games are stored in the questionen.json file
+4. Each player will have a username and checks it has not been used before
+5. The player will decide what theme they would like to play
+6. The game will present introduction and instructions
+7. While playing it will track and provide the score
+8. Once the game is over it will present a message where the score will be sabed
 4. Leadership board for solo players store in Json file
 
 ## How to play
@@ -13,7 +18,7 @@ Best of luck!
 ## Want to add more, look at the below features:
 1. Limited time to answer each question, stopwatch per question per round, player can go back x amount of times. 
 2. Option for playing solo in a group or at an event 
-3. Play it from a friendly GUI
+3. Play it from a friendly GUI with button for answer insted of having to type
 4. Add the ChatGPT API to generate any theme prefered and add it to the questionsen.json file
 5. Create a library to temporarily store and avoid unnecesary queries to Json file
 6. Organizations can personalize and donations will go to their business paypal account
