@@ -1,0 +1,364 @@
+{
+    "trivia_game": [{
+      "theme": "Food",
+      "introduction": "Welcome to the Food Trivia Night, hosted by Martha Stewart! Prepare to tantalize your taste buds and test your culinary knowledge. I'm Martha Stewart, and I'm excited to take you through five sections of mouthwatering questions. Each section contains five multiple-choice questions. Are you ready to dig in? Let's get started!",
+      "sections": [
+        {
+          "title": "Cuisine Origins",
+          "questions": [
+            {
+              "question": "Which country is famous for inventing sushi?",
+              "options": ["Italy", "Japan", "France", "Mexico"],
+              "correct_answer": "Japan",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "What is the main ingredient in a traditional Greek moussaka?",
+              "options": ["Eggplant", "Lamb", "Potato", "Tomato"],
+              "correct_answer": "Eggplant",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "Which spice is often referred to as the 'queen of spices'?",
+              "options": ["Cumin", "Turmeric", "Cinnamon", "Cardamom"],
+              "correct_answer": "Cardamom",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "What Italian pasta dish includes eggs, cheese, guanciale, and black pepper?",
+              "options": ["Carbonara", "Bolognese", "Alfredo", "Pesto"],
+              "correct_answer": "Carbonara",
+              "hint": "Option d is not correct."
+            },
+            {
+              "question": "Which country is known for producing the best quality olive oil?",
+              "options": ["Spain", "Italy", "Greece", "France"],
+              "correct_answer": "Italy",
+              "hint": "Option b is not correct."
+            }
+          ]
+        },
+        {
+          "title": "Famous Dishes",
+          "questions": [
+            {
+              "question": "Which French dish consists of beef stewed in red wine with onions and mushrooms?",
+              "options": ["Coq au Vin", "Ratatouille", "Bouillabaisse", "Beef Bourguignon"],
+              "correct_answer": "Beef Bourguignon",
+              "hint": "Option d is not correct."
+            },
+            {
+              "question": "Which Middle Eastern dip is made from chickpeas, tahini, lemon juice, and garlic?",
+              "options": ["Tzatziki", "Baba Ganoush", "Hummus", "Tabbouleh"],
+              "correct_answer": "Hummus",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "Which Italian dessert is made from ladyfingers dipped in coffee, layered with mascarpone cheese?",
+              "options": ["Cannoli", "Tiramisu", "Panna Cotta", "Gelato"],
+              "correct_answer": "Tiramisu",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "What type of bread is commonly used to make a classic BLT sandwich?",
+              "options": ["Sourdough", "Baguette", "Ciabatta", "White Bread"],
+              "correct_answer": "Sourdough",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "Which fruit is known as the 'king of fruits' and has a strong aroma?",
+              "options": ["Pineapple", "Mango", "Banana", "Apple"],
+              "correct_answer": "Mango",
+              "hint": "Option b is not correct."
+            }
+          ]
+        },
+        {
+          "title": "Cooking Techniques",
+          "questions": [
+            {
+              "question": "What cooking technique involves cooking food submerged in liquid at a low temperature?",
+              "options": ["Roasting", "Grilling", "Sous Vide", "Frying"],
+              "correct_answer": "Sous Vide",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "Which cooking method uses dry heat and is often done in an oven?",
+              "options": ["Boiling", "Steaming", "Baking", "Braising"],
+              "correct_answer": "Baking",
+              "hint": "Option d is not correct."
+            },
+            {
+              "question": "What technique involves rapidly boiling food and then immersing it in ice water?",
+              "options": ["Blanching", "Poaching", "Sautéing", "Grilling"],
+              "correct_answer": "Blanching",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "Which cooking technique involves slow-cooking meat in liquid until tender?",
+              "options": ["Searing", "Roasting", "Braising", "Grilling"],
+              "correct_answer": "Braising",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "Which type of pasta is shaped like small rice grains?",
+              "options": ["Fettuccine", "Orzo", "Linguine", "Rigatoni"],
+              "correct_answer": "Orzo",
+              "hint": "Option b is not correct."
+            }
+          ]
+        },
+        {
+          "title": "Ingredients",
+          "questions": [
+            {
+              "question": "Which ingredient is used to thicken sauces and soups and is derived from seaweed?",
+              "options": ["Cornstarch", "Flour", "Gelatin", "Agar Agar"],
+              "correct_answer": "Agar Agar",
+              "hint": "Option d is not correct."
+            },
+            {
+              "question": "Which spice comes from the dried stigma of a flower and is known for its vibrant color?",
+              "options": ["Saffron", "Paprika", "Cumin", "Turmeric"],
+              "correct_answer": "Saffron",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "What nut is used to make marzipan, a sweet almond-based confection?",
+              "options": ["Pistachio", "Walnut", "Almond", "Cashew"],
+              "correct_answer": "Almond",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "Which type of mushroom is often called the 'king of mushrooms' due to its meaty texture?",
+              "options": ["Portobello", "Shiitake", "Button", "Morel"],
+              "correct_answer": "Portobello",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "Which type of rice is commonly used in making sushi?",
+              "options": ["Basmati", "Jasmine", "Arborio", "Sushi Rice"],
+              "correct_answer": "Sushi Rice",
+              "hint": "Option d is not correct."
+            }
+          ]
+        },
+        {
+          "title": "Culinary Traditions",
+          "questions": [
+            {
+              "question": "Which country is known for its traditional dish of paella?",
+              "options": ["Italy", "Spain", "Mexico", "France"],
+              "correct_answer": "Spain",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "In which country did the tradition of afternoon tea originate?",
+              "options": ["Japan", "China", "England", "France"],
+              "correct_answer": "England",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "Which culinary tradition involves wrapping food in grape leaves?",
+              "options": ["Sushi", "Tacos", "Dolmas", "Samosas"],
+              "correct_answer": "Dolmas",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "What is the traditional Italian bread known for its elongated shape?",
+              "options": ["Ciabatta", "Baguette", "Pumpernickel", "Sourdough"],
+              "correct_answer": "Baguette",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "Which culture is famous for its use of spices and blends like curry and garam masala?",
+              "options": ["Italian", "Mexican", "Indian", "Greek"],
+              "correct_answer": "Indian",
+              "hint": "Option c is not correct."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Super Heroes",
+      "introduction": "Welcome to the Gotham City Heroes Trivia Night, where the Bat-Signal illuminates your knowledge of the superhero world! I am Batman, the Dark Knight, and I'll be your guide through five challenging sections of questions. Each section contains five multiple-choice questions. Are you ready to put your intellect to the test? Let's embark on this heroic journey.",
+      "sections": [
+        {
+          "title": "Hero Origins",
+          "questions": [
+            {
+              "question": "What is the civilian identity of the superhero with a red cape and blue tights?",
+              "options": ["Tony Stark", "Steve Rogers", "Bruce Wayne", "Clark Kent"],
+              "correct_answer": "Clark Kent",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "Who was bitten by a radioactive spider, gaining superpowers?",
+              "options": ["Wade Wilson", "Peter Parker", "Matt Murdock", "Bruce Banner"],
+              "correct_answer": "Peter Parker",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "Which hero is a Norse god wielding a mighty hammer?",
+              "options": ["Tony Stark", "Steve Rogers", "Thor Odinson", "Bruce Banner"],
+              "correct_answer": "Thor Odinson",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "What is the real name of the Amazonian princess known as Wonder Woman?",
+              "options": ["Diana Prince", "Selina Kyle", "Natasha Romanoff", "Carol Danvers"],
+              "correct_answer": "Diana Prince",
+              "hint": "Option d is not correct."
+            },
+            {
+              "question": "Who is the mutant leader of the X-Men known for his optic blast?",
+              "options": ["Scott Summers", "Logan Howlett", "Bobby Drake", "Charles Xavier"],
+              "correct_answer": "Scott Summers",
+              "hint": "Option c is not correct."
+            }
+          ]
+        },
+        {
+          "title": "Superhero Powers",
+          "questions": [
+            {
+              "question": "Which hero can manipulate and control plant life?",
+              "options": ["Aquaman", "Swamp Thing", "Martian Manhunter", "Green Lantern"],
+              "correct_answer": "Swamp Thing",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "What is the main superpower of the mutant Rogue?",
+              "options": ["Telepathy", "Telekinesis", "Flight", "Absorbing abilities through touch"],
+              "correct_answer": "Absorbing abilities through touch",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "Who is the telepathic mutant leader of the X-Men?",
+              "options": ["Jean Grey", "Storm", "Rogue", "Professor X"],
+              "correct_answer": "Professor X",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "What is the special ability of the superhero Ghost Rider?",
+              "options": ["Invisibility", "Mind control", "Fire manipulation", "Elasticity"],
+              "correct_answer": "Fire manipulation",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "Which hero has a power ring that creates constructs from their imagination?",
+              "options": ["The Flash", "Green Lantern", "Doctor Strange", "Scarlet Witch"],
+              "correct_answer": "Green Lantern",
+              "hint": "Option c is not correct."
+            }
+          ]
+        },
+        {
+          "title": "Iconic Villains",
+          "questions": [
+            {
+              "question": "Who is the arch-nemesis of Batman, often portrayed as a clown-like criminal?",
+              "options": ["Two-Face", "The Joker", "The Riddler", "Catwoman"],
+              "correct_answer": "The Joker",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "What villain is a megalomaniac with an affinity for technology and gadgets?",
+              "options": ["Lex Luthor", "Magneto", "Doctor Octopus", "The Green Goblin"],
+              "correct_answer": "Lex Luthor",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "Who is the nemesis of Spider-Man, known for his green armor and gadgets?",
+              "options": ["The Vulture", "The Lizard", "Green Goblin", "Sandman"],
+              "correct_answer": "Green Goblin",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "Which villain is a brilliant strategist with a fascination for chaos and puzzles?",
+              "options": ["Bane", "The Scarecrow", "The Penguin", "The Riddler"],
+              "correct_answer": "The Riddler",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "What villain, an enemy of the X-Men, can control and manipulate magnetic fields?",
+              "options": ["Apocalypse", "Magneto", "Mystique", "Sabretooth"],
+              "correct_answer": "Magneto",
+              "hint": "Option c is not correct."
+            }
+          ]
+        },
+        {
+          "title": "Superhero Teams",
+          "questions": [
+            {
+              "question": "What is the superhero team consisting of Iron Man, Thor, and Captain America?",
+              "options": ["Justice League", "Fantastic Four", "X-Men", "The Avengers"],
+              "correct_answer": "The Avengers",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "Which team of young mutants is trained by Charles Xavier?",
+              "options": ["Inhumans", "Titans", "Young Avengers", "X-Men"],
+              "correct_answer": "X-Men",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "What superhero group includes characters like Wolverine, Cyclops, and Jean Grey?",
+              "options": ["Justice League", "X-Force", "Guardians of the Galaxy", "X-Men"],
+              "correct_answer": "X-Men",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "Which team of heroes protects the underwater city of Atlantis?",
+              "options": ["The Incredibles", "The Deep Ones", "The Atlanteans", "The Others"],
+              "correct_answer": "The Others",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "What is the name of the intergalactic superhero group led by Star-Lord?",
+              "options": ["The A-Team", "The Guardians of the Galaxy", "The Cosmic Avengers", "The Space Defenders"],
+              "correct_answer": "The Guardians of the Galaxy",
+              "hint": "Option c is not correct."
+            }
+          ]
+        },
+        {
+          "title": "Superhero Films",
+          "questions": [
+            {
+              "question": "Who directed the film \"The Dark Knight\" starring Batman?",
+              "options": ["Christopher Nolan", "Tim Burton", "Joel Schumacher", "Zack Snyder"],
+              "correct_answer": "Christopher Nolan",
+              "hint": "Option b is not correct."
+            },
+            {
+              "question": "In the Marvel Cinematic Universe, who plays Tony Stark / Iron Man?",
+              "options": ["Chris Hemsworth", "Robert Downey Jr.", "Mark Ruffalo", "Tom Holland"],
+              "correct_answer": "Robert Downey Jr.",
+              "hint": "Option a is not correct."
+            },
+            {
+              "question": "Which superhero film centers around the mystical city of Wakanda?",
+              "options": ["Wonder Woman", "Aquaman", "Thor: Ragnarok", "Black Panther"],
+              "correct_answer": "Black Panther",
+              "hint": "Option c is not correct."
+            },
+            {
+              "question": "What film features the Joker as a main antagonist, portrayed by Heath Ledger?",
+              "options": ["Suicide Squad", "Batman Begins", "The Dark Knight", "Justice League"],
+              "correct_answer": "The Dark Knight",
+              "hint": "Option d is not correct."
+            },
+            {
+              "question": "Who directed the first \"Avengers\" film released in 2012?",
+              "options": ["Joss Whedon", "Jon Favreau", "James Gunn", "Zack Snyder"],
+              "correct_answer": "Joss Whedon",
+              "hint": "Option b is not correct."
+            }
+          ]
+        }
+      ]
+    }]
+  }
