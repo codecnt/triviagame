@@ -1,15 +1,8 @@
-import logging
-import os
-from dotenv import load_dotenv
 import json
 
 class Trivia:
     def __init__(self, theme):
         self.theme = theme
-        # sectionnum, questionnum, optionsnum
-        # self.sectionnum = sectionnum
-        # self.questionnum = questionnum
-        # self.optionsnum = optionsnum
 
     def __repr__(self):
         return "This trivia game will be {theme} theme".format(theme = self.theme)
@@ -115,12 +108,12 @@ class Player:
 
 
 
-class HighScore:
-    def __init__(self, user):
-        self.theme = theme
-        self.user = user
+# class HighScore:
+#     def __init__(self, theme, user):
+#         self.theme = theme
+#         self.user = user
         
-        pass
+#         pass
 
 
 player_name = input("Welcome to trivia. Please enter a name for player one and hit enter: ")

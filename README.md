@@ -8,23 +8,29 @@
 5. The player will decide what theme they would like to play
 6. The game will present introduction and instructions
 7. While playing it will track and provide the score
-8. Once the game is over it will present a message where the score will be sabed
-4. Leadership board for solo players store in Json file
+8. Once the game is over it will present a goodbye message
 
 ## How to play
 From your terminal write "python3 trivia2.py" press enter
 Best of luck!
 
 ## Want to add more, look at the below features:
-1. Limited time to answer each question, stopwatch per question per round, player can go back x amount of times. 
+1. Leadership board for solo players store in Json file (started with class HighScore and leadership.json, didnt settle on the json structure)
+    a. would verify if existing user name exist
+    b. add as a key and value the user name and score
+    c. ensure that the key and value are added in the order of highest to lowest score
+    d. inform player which is their position number
+    e. send a celebratory message if the player made it to the top 3 of the theme
 2. Option for playing solo in a group or at an event 
 3. Play it from a friendly GUI with button for answer insted of having to type
 4. Add the ChatGPT API to generate any theme prefered and add it to the questionsen.json file
 5. Create a library to temporarily store and avoid unnecesary queries to Json file
 6. Organizations can personalize and donations will go to their business paypal account
 7. Create are options to buy answers and buy hints (fundraising purpose)
-8. Leadership board for (for solo players / groups and events)
+8. Leadership board for groups and events
 9. Final dashboard for group and events game will include total raised per table and scores
+10. Limited time to answer each question, stopwatch per question per round, player can go back x amount of times. 
+
 
 ## How to play your own theme:
 
