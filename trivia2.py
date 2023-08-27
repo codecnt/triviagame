@@ -78,7 +78,7 @@ class Player:
     def __repr__(self):
         return "{user} Let's win!".format(user = self.user)
 
-    def nose(self):
+    def sscore(self):
         # return print("YEY")
         self.user_score += 1
         print("You scored! Current balance: " + str(self.user_score) + "\n")
@@ -149,7 +149,7 @@ for i in range(25):
         choice = input("Whoops, it looks like you didn't choose. Try selecting one again!")
 
     if choice == str(active_user.accessanswer(i)):
-        active_user.nose()
+        active_user.sscore()
     else:
         print("Keep trying you will get there \n")
 
