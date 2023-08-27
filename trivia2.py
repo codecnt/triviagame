@@ -145,10 +145,6 @@ for i in range(25):
 
     choice = input(str(game.accessquestion(i)) + "\n" + str(game.accessoptions(i)) + "\n" + "Type your answer here and press enter:")
 
-    # print(game.accessquestion(i))
-    # print(game.accessoptions(i))
-    # choice = input("Write here and press enter:")
-
     while choice != str(game.accessoption(i,0)) and choice != str(game.accessoption(i,1)) and choice != str(game.accessoption(i,2)) and choice != str(game.accessoption(i,3)):
         choice = input("Whoops, it looks like you didn't choose. Try selecting one again!")
 
