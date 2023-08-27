@@ -5,7 +5,7 @@ class Trivia:
         self.theme = theme
 
     def __repr__(self):
-        return "This trivia game will be {theme} theme".format(theme = self.theme)
+        return "This trivia game will be {theme} theme \n".format(theme = self.theme)
     
     def accessjson(self):
         
@@ -81,7 +81,7 @@ class Player:
     def nose(self):
         # return print("YEY")
         self.user_score += 1
-        print("You scored! Current balance: " + str(self.user_score))
+        print("You scored! Current balance: " + str(self.user_score) + "\n")
 
     def accessjson(self):
         
@@ -137,13 +137,17 @@ print(game.accessintr())
 
 print(active_user)
 
-print("After each question and options are presente type your answer, remember to use same spelling and capital letters! GOOD LUCK")
+print("After each question and options are presente type your answer, remember to use same spelling and capital letters! GOOD LUCK \n")
 
-print("If you need to stop the game at any point press ctrl + C")
+print("If you need to stop the game at any point press ctrl + C \n \n")
 
 for i in range(25):
 
-    choice = input(str(print(game.accessquestion(i))) + str(print(game.accessoptions(i))))
+    choice = input(str(game.accessquestion(i)) + "\n" + str(game.accessoptions(i)) + "\n" + "Type your answer here and press enter:")
+
+    # print(game.accessquestion(i))
+    # print(game.accessoptions(i))
+    # choice = input("Write here and press enter:")
 
     while choice != str(game.accessoption(i,0)) and choice != str(game.accessoption(i,1)) and choice != str(game.accessoption(i,2)) and choice != str(game.accessoption(i,3)):
         choice = input("Whoops, it looks like you didn't choose. Try selecting one again!")
@@ -151,7 +155,7 @@ for i in range(25):
     if choice == str(active_user.accessanswer(i)):
         active_user.nose()
     else:
-        print("Keep trying you will get there")
+        print("Keep trying you will get there \n")
 
 
-print("Well done! You finished the game! You will now forever be remembered in our leadership board")
+print("Well done! You finished the game!")
