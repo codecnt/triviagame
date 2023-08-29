@@ -25,7 +25,7 @@ all_questions = load_all_questions()
 
 player_name = input("Welcome to trivia. Please enter a name for player one and hit enter: ")
 
-print("Hi, " + player_name + " If you need to stop the game at any point press ctrl + C \n \n")
+print("Hi, " + player_name + " If you need to stop the game at any point press ctrl + C \n When choosing your selection only type the number and press enter\n GOOD LUCK! \n \n")
 
 # Choose a theme
 theme_choices = [theme["theme"] for theme in all_questions]
